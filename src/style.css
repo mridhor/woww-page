@@ -30,7 +30,13 @@ body {
 }
 
 header {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
