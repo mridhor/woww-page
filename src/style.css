@@ -105,10 +105,10 @@ p {
     }
 
 .copyright {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-style: italic;
   color: #353535;
-  margin: 0;
+  margin-top: 0.85rem;
 }
 
 /* Responsive adjustments */
