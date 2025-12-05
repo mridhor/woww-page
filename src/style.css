@@ -67,7 +67,6 @@ footer {
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.05rem;
   align-items: flex-start;
 }
 
