@@ -63,7 +63,7 @@ main {
 footer {
 
   /* Push footer to bottom */
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
