@@ -193,15 +193,15 @@ p {
   }
 
   .contact-info {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .contact-info p:last-of-type {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .copyright {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
@@ -220,14 +220,14 @@ p {
   }
 
   .contact-info {
-    font-size: 1.53vw;
+    font-size: 1.1vw;
   }
 
   .contact-info p:last-of-type {
-    font-size: 1.53vw;
+    font-size: 1.1vw;
   }
 
   .copyright {
-    font-size: 1.53vw;
+    font-size: 1.1vw;
   }
 }
