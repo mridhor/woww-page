@@ -40,9 +40,9 @@ header {
 }
 
 .subtitle {
-  font-size: 12vw;
+  font-size: 10vw;
   font-weight: 300;
-  margin: 0 0 2vw 0;
+  margin: 0 0 2.5vw 0;
   line-height: 1.2;
 }
 
@@ -137,7 +137,7 @@ p {
   }
 
   .subtitle {
-    font-size: 8.67vw;
+    font-size: 8.3vw;
   }
 
   footer {
@@ -173,7 +173,7 @@ p {
   }
 
   .subtitle {
-    font-size: 7.33vw;
+    font-size: 6.7vw;
   }
 
   footer {
@@ -200,7 +200,7 @@ p {
   }
 
   .subtitle {
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
 
   footer {
