@@ -42,7 +42,7 @@ header {
 .subtitle {
   font-size: 12vw;
   font-weight: 300;
-  margin: 0 0 1.3vw 0;
+  margin: 0 0 2vw 0;
   line-height: 1.2;
 }
 
@@ -61,7 +61,7 @@ main {
   justify-content: left;
   align-items: flex-start;
   gap: 0.7vw;
-  margin-top: 6vw
+  margin-top: 6vw;
   margin-bottom: 6vw;
 }
 
