@@ -170,15 +170,15 @@ p {
 @media (min-width: 1024px) {
 
   #app {
-    padding: 2vw 6vw 6vw;
+    padding: 3vw 6vw 6vw;
   }
   
   h1 {
-    font-size: 3.67vw;
+    font-size: 3vw;
   }
 
   .subtitle {
-    font-size: 6.7vw;
+    font-size: 6vw;
   }
 
   footer {
@@ -201,11 +201,11 @@ p {
 /* Large desktop */
 @media (min-width: 1440px) {
   h1 {
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
 
   .subtitle {
-    font-size: 5.5vw;
+    font-size: 5.2vw;
   }
 
   footer {
