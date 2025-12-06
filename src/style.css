@@ -40,11 +40,12 @@ header {
 }
 
 h1 {
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin: 0;
+  line-height: 1.4;
 }
 
 main {
@@ -57,7 +58,7 @@ main {
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -73,7 +74,7 @@ footer {
 
 .contact-info {
   text-align: left;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
   display: flex;
@@ -89,12 +90,11 @@ footer {
 a {
   color: #353535;
   text-decoration: none;
-  border-bottom: 1px solid #000;
-  transition: border-color 0.3s;
+  transition: opacity 0.3s;
 }
 
 a:hover {
-  border-bottom: 1px solid #000;
+  opacity: 0.7;
 }
 
 p {
@@ -106,19 +106,66 @@ p {
     }
 
 .copyright {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-style: italic;
   color: #353535;
   margin-top: 1.8rem;
 }
 
 /* Responsive adjustments */
+/* Tablet and larger */
 @media (min-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+  }
+
+  .contact-info {
+    font-size: 1.05rem;
+  }
+
+  .copyright {
+    font-size: 1.05rem;
+  }
+}
+
+/* Laptop and larger */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.35rem;
+  }
+
+  .contact-info {
+    font-size: 1.1rem;
+  }
+
+  .copyright {
+    font-size: 1.1rem;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .contact-info {
+    font-size: 1.15rem;
+  }
+
+  .copyright {
+    font-size: 1.15rem;
   }
 }
