@@ -211,6 +211,12 @@ p {
 #app {
     padding: 3vw 6vw 6vw;
   }
+
+main {
+  
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+}
   
   .subtitle {
     font-size: 5vw;
