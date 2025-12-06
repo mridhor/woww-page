@@ -68,7 +68,7 @@ main {
 footer {
 
   /* Push footer to bottom */
-  padding-top: 10vw;
+  padding-top: 9vw;
   padding-bottom: 1.3vw;
   display: flex;
   flex-direction: column;
@@ -176,6 +176,9 @@ p {
   header {
     margin-bottom: 0vw;
   }
+
+  footer {
+  padding-top: 5vw;
   
   h1 {
     font-size: 3vw;
