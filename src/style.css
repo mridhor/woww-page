@@ -176,9 +176,6 @@ p {
   header {
     margin-bottom: 0vw;
   }
-
-  footer {
-  padding-top: 5vw;
   
   h1 {
     font-size: 3vw;
@@ -189,7 +186,7 @@ p {
   }
 
   footer {
-    padding-top: 6vw;
+    padding-top: 4.5vw;
   }
 
   .contact-info {
@@ -216,7 +213,7 @@ p {
   }
 
   footer {
-    padding-top: 4.5vw;
+    padding-top: 3.2vw;
   }
 
   .contact-info {
