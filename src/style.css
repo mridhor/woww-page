@@ -20,7 +20,7 @@ body {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem 2rem 1rem;
+  padding: 2.7vw 2.7vw 1.3vw;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -30,24 +30,24 @@ body {
 }
 
 header {
-    margin-bottom: 2rem;
+    margin-bottom: 2.7vw;
 }
 
 .logo {
   width: 120px;
   height: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2vw;
 }
 
 .subtitle {
-  font-size: 7rem;
+  font-size: 12vw;
   font-weight: 300;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.3vw 0;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 6vw;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -60,15 +60,15 @@ main {
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  gap: 0.7vw;
+  margin-bottom: 1.3vw;
 }
 
 footer {
 
   /* Push footer to bottom */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.3vw;
+  padding-bottom: 1.3vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -76,7 +76,7 @@ footer {
 
 .contact-info {
   text-align: left;
-  font-size: 2.4rem;
+  font-size: 4.13vw;
   font-weight: 300;
   line-height: 1.4;
   display: flex;
@@ -101,73 +101,73 @@ a:hover {
 
 p {
     display: block;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
+    margin-block-start: 0.7vw;
+    margin-block-end: 0.7vw;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     }
 
 .copyright {
-  font-size: 2.4rem;
+  font-size: 4.13vw;
   font-style: italic;
   color: #353535;
-  margin-top: 1.8rem;
+  margin-top: 2.4vw;
 }
 
 /* Responsive adjustments */
 /* Tablet and larger */
 @media (min-width: 768px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4.33vw;
   }
 
   .subtitle {
-    font-size: 7rem;
+    font-size: 8.67vw;
   }
 
   .contact-info {
-    font-size: 2.1rem;
+    font-size: 2.6vw;
   }
 
   .copyright {
-    font-size: 2.1rem;
+    font-size: 2.6vw;
   }
 }
 
 /* Laptop and larger */
 @media (min-width: 1024px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.67vw;
   }
 
   .subtitle {
-    font-size: 8rem;
+    font-size: 7.33vw;
   }
 
   .contact-info {
-    font-size: 2.2rem;
+    font-size: 2vw;
   }
 
   .copyright {
-    font-size: 2.2rem;
+    font-size: 2vw;
   }
 }
 
 /* Large desktop */
 @media (min-width: 1440px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 3vw;
   }
 
   .subtitle {
-    font-size: 9rem;
+    font-size: 6vw;
   }
 
   .contact-info {
-    font-size: 2.3rem;
+    font-size: 1.53vw;
   }
 
   .copyright {
-    font-size: 2.3rem;
+    font-size: 1.53vw;
   }
 }
