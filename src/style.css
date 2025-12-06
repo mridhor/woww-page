@@ -170,7 +170,11 @@ p {
 @media (min-width: 1024px) {
 
   #app {
-    padding: 3vw 6vw 6vw;
+    padding: 4vw 6vw 6vw;
+  }
+
+  header {
+    margin-bottom: 0vw;
   }
   
   h1 {
