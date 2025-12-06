@@ -77,12 +77,24 @@ footer {
 
 .contact-info {
   text-align: left;
-  font-size: 4.13vw;
+  font-size: 5.5vw;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 1.5vw;
+}
+
+/* Stack email and phone vertically on mobile */
+.contact-info p:last-of-type {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  font-size: 0; /* Hide the separator dot */
+}
+
+.contact-info p:last-of-type a {
+  font-size: 5.5vw; /* Restore font size for links */
 }
 
 .company-name {
@@ -109,10 +121,10 @@ p {
     }
 
 .copyright {
-  font-size: 4.13vw;
+  font-size: 5.5vw;
   font-style: italic;
   color: #353535;
-  margin-top: 2.4vw;
+  margin-top: 4vw;
 }
 
 /* Responsive adjustments */
@@ -132,10 +144,23 @@ p {
 
   .contact-info {
     font-size: 2.6vw;
+    gap: 0;
+  }
+
+  /* Restore inline layout for email and phone */
+  .contact-info p:last-of-type {
+    flex-direction: row;
+    gap: 0;
+    font-size: 2.6vw; /* Show the separator dot */
+  }
+
+  .contact-info p:last-of-type a {
+    font-size: inherit;
   }
 
   .copyright {
     font-size: 2.6vw;
+    margin-top: 2.4vw;
   }
 }
 
@@ -154,6 +179,10 @@ p {
   }
 
   .contact-info {
+    font-size: 2vw;
+  }
+
+  .contact-info p:last-of-type {
     font-size: 2vw;
   }
 
@@ -177,6 +206,10 @@ p {
   }
 
   .contact-info {
+    font-size: 1.53vw;
+  }
+
+  .contact-info p:last-of-type {
     font-size: 1.53vw;
   }
 
