@@ -168,6 +168,11 @@ p {
 
 /* Laptop and larger */
 @media (min-width: 1024px) {
+
+  #app {
+    padding: 2vw 6vw 6vw;
+  }
+  
   h1 {
     font-size: 3.67vw;
   }
