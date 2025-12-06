@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .logo {
@@ -39,8 +39,15 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.subtitle {
+  font-size: 7rem;
+  font-weight: 300;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
 h1 {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -57,11 +64,6 @@ main {
   margin-bottom: 1rem;
 }
 
-.subtitle {
-  font-size: 1.35rem;
-  font-weight: 300;
-}
-
 footer {
 
   /* Push footer to bottom */
@@ -74,7 +76,7 @@ footer {
 
 .contact-info {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.4;
   display: flex;
@@ -106,7 +108,7 @@ p {
     }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   font-style: italic;
   color: #353535;
   margin-top: 1.8rem;
@@ -116,56 +118,56 @@ p {
 /* Tablet and larger */
 @media (min-width: 768px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 3.5rem;
   }
 
   .subtitle {
-    font-size: 1.25rem;
+    font-size: 7rem;
   }
 
   .contact-info {
-    font-size: 1.05rem;
+    font-size: 2.1rem;
   }
 
   .copyright {
-    font-size: 1.05rem;
+    font-size: 2.1rem;
   }
 }
 
 /* Laptop and larger */
 @media (min-width: 1024px) {
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .subtitle {
-    font-size: 1.35rem;
+    font-size: 8rem;
   }
 
   .contact-info {
-    font-size: 1.1rem;
+    font-size: 2.2rem;
   }
 
   .copyright {
-    font-size: 1.1rem;
+    font-size: 2.2rem;
   }
 }
 
 /* Large desktop */
 @media (min-width: 1440px) {
   h1 {
-    font-size: 2.25rem;
+    font-size: 4.5rem;
   }
 
   .subtitle {
-    font-size: 1.5rem;
+    font-size: 9rem;
   }
 
   .contact-info {
-    font-size: 1.15rem;
+    font-size: 2.3rem;
   }
 
   .copyright {
-    font-size: 1.15rem;
+    font-size: 2.3rem;
   }
 }
