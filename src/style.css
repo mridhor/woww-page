@@ -205,11 +205,11 @@ p {
 /* Large desktop */
 @media (min-width: 1440px) {
   h1 {
-    font-size: 2.8vw;
+    font-size: 2.6vw;
   }
 
   .subtitle {
-    font-size: 5.2vw;
+    font-size: 5vw;
   }
 
   footer {
