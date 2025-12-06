@@ -20,7 +20,7 @@ body {
 #app {
     max-width: 90vw;
     margin: 0;
-    padding: 6vw 6vw 6vw;
+    padding: 5vw 6vw 6vw;
     text-align: left;
     display: flex;
     flex-direction: column;
