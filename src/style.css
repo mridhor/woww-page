@@ -208,6 +208,10 @@ p {
     font-size: 2.6vw;
   }
 
+#app {
+    padding: 3vw 6vw 6vw;
+  }
+  
   .subtitle {
     font-size: 5vw;
   }
