@@ -61,7 +61,8 @@ main {
   justify-content: left;
   align-items: flex-start;
   gap: 0.7vw;
-  margin-bottom: 1.3vw;
+  margin-top: 6vw
+  margin-bottom: 6vw;
 }
 
 footer {
