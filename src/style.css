@@ -62,7 +62,7 @@ main {
   justify-content: left;
   align-items: flex-start;
   gap: 0.7vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 2vw;
 }
 
@@ -84,7 +84,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-bottom: 1vw;
   gap: 5vw;
 }
 
