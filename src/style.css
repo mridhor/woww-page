@@ -186,19 +186,19 @@ p {
   }
 
   footer {
-    padding-top: 4.5vw;
+    padding-top: 4vw;
   }
 
   .contact-info {
-    font-size: 1.5vw;
+    font-size: 1.65vw;
   }
 
   .contact-info p:last-of-type {
-    font-size: 1.5vw;
+    font-size: 1.65vw;
   }
 
   .copyright {
-    font-size: 1.5vw;
+    font-size: 1.65vw;
   }
 }
 
@@ -213,18 +213,18 @@ p {
   }
 
   footer {
-    padding-top: 3.2vw;
+    padding-top: 2vw;
   }
 
   .contact-info {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
   }
 
   .contact-info p:last-of-type {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
   }
 
   .copyright {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
   }
 }
